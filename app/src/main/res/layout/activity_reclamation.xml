@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background20"
+    android:orientation="vertical"
+    tools:context="com.example.chmykel.pfaversion1.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#910d0c0c">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:textSize="19sp"
+            android:text="Rediger votre reclamation "
+            android:textColor="#ffffff"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sujet"
+            android:textColorHint="#e4e0e0"
+            android:textAlignment="center"
+            android:background="@drawable/shape"
+            android:textColor="#ffffff"
+             />
+
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape"
+            android:textAlignment="center"
+            android:hint="Message"
+            android:textColorHint="#e4e0e0"
+            android:textColor="#ffffff"
+            android:layout_height="200dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded"
+            android:text="Reclamer"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
