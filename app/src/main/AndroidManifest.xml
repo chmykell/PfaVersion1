@@ -29,7 +29,8 @@
         <activity android:name=".ReclamationActivity" />
         <activity android:name=".AbonnementActivity" />
         <activity android:name=".AutresAbonnementsActivity" />
-        <activity android:name=".MyAbonnementsActivity"></activity>
+        <activity android:name=".MyAbonnementsActivity" />
+        <activity android:name=".CallRemorquageActivity"></activity>
     </application>
 
 </manifest>

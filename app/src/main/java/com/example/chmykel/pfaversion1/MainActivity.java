@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             break;
             case R.id.btnAppel: {
-                Intent callIntent = new Intent(Intent.ACTION_CALL);
+              /*  Intent callIntent = new Intent(Intent.ACTION_CALL);
                 callIntent.setData(Uri.parse("tel:71364100"));
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     // TODO: Consider calling
@@ -56,7 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 }
                 startActivity(callIntent);
-
+*/
+                Intent intent = new Intent(MainActivity.this, CallRemorquageActivity.class);
+                startActivity(intent);
 
             }
             break;

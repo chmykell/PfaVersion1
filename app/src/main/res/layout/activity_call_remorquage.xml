@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_actualite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background20"
+    tools:context="com.example.chmykel.pfaversion1.LoginActivity"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3050505"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Appel Remorquage"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="71123456"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/roundcorner"
+        android:scaleType="fitXY"
+        android:src="@drawable/menu_two"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Ne Paniquez pas, un peu de patience et vous serez chez vous!"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btn_callNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="65dp"
+
+        android:text="Appeler"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded1"
+
+        />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Retour"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded2"
+        />
+
+
+
+
+
+</LinearLayout>
+</RelativeLayout>
